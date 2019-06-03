@@ -44,8 +44,23 @@
     text-align: center;
 }
 
-
+.search-form{
+    
+    width: 600px;
+    margin-left: 15%;
+}
+form{
+    width: 80%;
+}
 .search-form input{
-    margin-left: 50%;
-    width: 500px;
+    
+    width:80%;
+    height: 30px;
+    float:left;
+}
+
+.search-form button{
+    display:flex-end;
+    width: 10%;
+    float:left;
 }

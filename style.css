@@ -79,7 +79,7 @@ video  part
 }
 
 #sidebar{
-    margin-left: 38px;
+    margin-left: 5%;
 }
 #sidebar img{
     width: 150px;
@@ -87,6 +87,17 @@ video  part
 }
 .bar{
     padding-bottom: 15px;
-    font-size: 15px;
 }
 
+
+.description ul{
+    list-style-type: none;
+    margin-left: -19px;
+}
+li h2{
+    font-size: medium;
+}
+li p{
+    font-size:small;
+    line-height: 1px;
+}

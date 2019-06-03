@@ -74,13 +74,19 @@ video  part
 
 #video{
     margin-left: 100px;
-
-    /*text-align: center;*/
+    font-size: 22px;
+  
 }
 
+#sidebar{
+    margin-left: 38px;
+}
 #sidebar img{
     width: 150px;
     height: 88px;
 }
-
+.bar{
+    padding-bottom: 15px;
+    font-size: 15px;
+}
 

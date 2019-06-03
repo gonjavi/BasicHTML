@@ -29,21 +29,6 @@
     height: 24px;
 }
 
-#sidebar img{
-    width: 168px;
-    height: 130px;
-}
-
-.row{
-    margin-top:50px;
-
-}
-#video{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
 .search-form{
     
     width: 600px;
@@ -64,3 +49,29 @@ form{
     width: 10%;
     float:left;
 }
+
+
+/* 
+video  part 
+*/
+
+.row{
+    margin-top:50px;
+
+}
+.flex-container {
+    display: flex;
+  }
+
+#video{
+    margin-left: 100px;
+
+    /*text-align: center;*/
+}
+
+#sidebar img{
+    width: 150px;
+    height: 88px;
+}
+
+

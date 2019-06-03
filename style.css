@@ -28,3 +28,19 @@
     width: 24px;
     height: 24px;
 }
+
+#sidebar img{
+    width: 168px;
+    height: 130px;
+}
+
+.row{
+    margin-top:50px;
+
+}
+#video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-content: center;
+}

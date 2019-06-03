@@ -1,0 +1,22 @@
+
+
+
+.navigation{
+    display: flex;
+    flex: 33.33%;
+  
+}
+
+.menu{
+    width: 10px;
+}
+
+.logo{
+    width: 80px;
+    float:left;
+}
+
+.hamburger{
+    width: 10px;
+    height: 10px;
+}

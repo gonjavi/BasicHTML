@@ -9,19 +9,19 @@
   height: 56px;
   padding-right: 16px;
   align-items: center;
-  
+  box-shadow:0 3px 3px rgba(238,238,238,0.6);
 }
 
 .menu{
     width: 10px;
-  
+  margin-left: 50px;
 }
 
 .logo{
     width: 80px;
     
     
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .hamburger{
@@ -39,9 +39,10 @@ form{
 }
 .search-form input{
     
-    width:80%;
+    width:100%;
     height: 30px;
     float:left;
+    box-shadow: 1;
 }
 
 .search-form button{
@@ -50,13 +51,21 @@ form{
     float:left;
 }
 
+.icons img{
+    margin-left: 20px;
+    
+}
+
+.icons{
+    margin-left: 50px;
+}
 
 /* 
 video  part 
 */
 
-.row{
-    margin-top:50px;
+#row{
+    margin-top:20px;
 
 }
 .flex-container {

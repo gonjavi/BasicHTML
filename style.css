@@ -2,21 +2,29 @@
 
 
 .navigation{
-    display: flex;
-    flex: 33.33%;
+    display:flex;
+  vertical-align:top;
+  margin:0;
+  padding:0;
+  height: 56px;
+  padding-right: 16px;
+  align-items: center;
   
 }
 
 .menu{
     width: 10px;
+  
 }
 
 .logo{
     width: 80px;
-    float:left;
+    
+    
+    margin-left: 20px;
 }
 
 .hamburger{
-    width: 10px;
-    height: 10px;
+    width: 24px;
+    height: 24px;
 }

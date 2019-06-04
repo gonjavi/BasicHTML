@@ -148,6 +148,7 @@ li p{
 }
 .video-desc{
     margin-top:15px;
+    border-bottom:1px solid #ecf0f1;
 }
 .video-desc p{
     color:black;
@@ -206,4 +207,70 @@ input[type=checkbox]{
    
   }
   /*End Of toggle Button*/
+.image{
+    display: inline-block;
+    font-size: small;
+}
+.separator{
+    display: inline-block;
+    height: 48px;
+    border-bottom:1px solid gray;
+
+}
+.video-desc a{
+    color: gray !important;
+    Text-Decoration: None !important; 
+    
+}
+
+.comments{
+    margin-top:15px;
+    vertical-align:center;
+}
+
+.top{
+    display: flex;
+    vertical-align:center;
+    
+}
+.top p{
+    font-size: medium;
   
+}
+.top i{
+    margin-left: 50px;
+    font-size: medium;
+    margin-top:5px;
+   
+}
+
+.insert{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.insert input{
+    margin-left: 40px;
+    border: none;
+    color:gray;
+    border-bottom:1px solid gray;
+    width: 100%;
+    font-size: medium;
+    
+}
+.flex-comment{
+    
+    display: flex;
+    
+    
+}
+
+.flex-comment img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.flex-comment p{
+    font-size: small;
+    margin-right: 10px;
+}

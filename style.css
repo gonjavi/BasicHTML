@@ -95,14 +95,19 @@ video  part
     list-style-type: none;
     margin-left: -19px;
 }
-#up{
-    justify-content: space-between;
+#up i{
+   margin-right: 10px;
+   font-size: medium;
+   color:gray;
+   
 }
 
 /* below main video views*/
 .description1 {
     font-size: 20px;
     display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #ecf0f1;
 }
 li h2{
     font-size: medium;
@@ -110,6 +115,27 @@ li h2{
 li p{
     font-size:small;
     line-height: 1px;
+}
+.under{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.under img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    
+}
+
+.under button{
+    color:white;
+    background-color:red;
+    border-radius:2px;
+    height: 51px;
+    width: 184px;
+    font-size: medium;
 }
 
 .divider{
@@ -119,6 +145,14 @@ li p{
    padding-bottom: 5px;
    margin-bottom: 15px;
    
+}
+.video-desc{
+    margin-top:15px;
+}
+.video-desc p{
+    color:black;
+    font-size: small;
+    text-align: justify;
 }
 
 .toggle{

@@ -5,8 +5,8 @@ This collaborative project is based on the youtube.com video page, as a part of 
 
 
 <h1><b> Authors:</b></h1>
-António Fernandes ---
-Gonzalo Javier Mancilla
+<a href="https://github.com/trox115">António Fernandes</a> ---
+<a href="https://github.com/gonjavi">Gonzalo Javier Mancilla</a>
 
 
-<h1>Link of the live version:</h1>https://gonjavi.github.io/basichtml/
+<h1>Link of the live version:</h1>https://raw.githack.com/gonjavi/basichtml/development/index.html

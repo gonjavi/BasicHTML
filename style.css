@@ -1,323 +1,301 @@
-nav{
+nav {
   height: 56px;
   padding-right: 16px;
   align-items: center;
-  box-shadow:0 3px 3px rgba(238,238,238,0.6);
+  box-shadow: 0 3px 3px rgba(238, 238, 238, 0.6);
 }
-nav ul{
+nav ul {
   list-style: none;
   display: inline-block;
   vertical-align: top;
 }
 
-nav ul li{
+nav ul li {
   list-style: none;
   display: inline-block;
   vertical-align: top;
 }
 
-.navigation{
-    display:flex;
-  vertical-align:top;
-  margin:0;
-  padding:0;
-  
+.navigation {
+  display: flex;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
 }
 
-.menu{
-    width: 10px;
+.menu {
+  width: 10px;
   margin-left: 50px;
 }
 
-.logo{
-    width: 80px;
-    
-    
-    margin-left: 40px;
+.logo {
+  width: 80px;
+
+  margin-left: 40px;
 }
 
-.hamburger{
-    width: 24px;
-    height: 24px;
+.hamburger {
+  width: 24px;
+  height: 24px;
 }
 
-.search-form{
-    
-    width: 600px;
-    margin-left: 15%;
+.search-form {
+  width: 600px;
+  margin-left: 15%;
 }
-form{
-    width: 80%;
+form {
+  width: 80%;
 }
-.search-form input{
-    
-    width:100%;
-    height: 30px;
-   
-    box-shadow: 1;
+.search-form input {
+  width: 100%;
+  height: 30px;
+
+  box-shadow: 1;
 }
 
-.button{
-    margin-left: 87px;
-    width: 50%;
-    height:36px;
+.button {
+  margin-left: 87px;
+  width: 50%;
+  height: 36px;
 }
 
-.icons img{
-    margin-left: 20px;
-    
+.icons img {
+  margin-left: 20px;
 }
 
-.icons{
-    margin-left: 50px;
-    height:36px;
+.icons {
+  margin-left: 50px;
+  height: 36px;
 }
 
 /* 
 video  part 
 */
 
-.video-sidebar{
- width: 100%;
- display: inline-block;
- margin-top:500px;
- height: 100%;
+.video-sidebar {
+  width: 100%;
+  display: inline-block;
+  margin-top: 500px;
+  height: 100%;
 }
-.video{
- 
+.video {
   width: 62%;
-  margin-left:80px;
-  margin-top:20px;
-  float:left;
+  margin-left: 80px;
+  margin-top: 20px;
+  float: left;
 }
 
-.sidebar{
+.sidebar {
   width: 30%;
   height: 100%;
   vertical-align: top;
-  text-align:left;
-  margin-top:20px;
-  float:left;
+  text-align: left;
+  margin-top: 20px;
+  float: left;
 }
 .description1 {
   font-size: 20px;
   display: inline-block;
   width: 80%;
-  border-bottom:1px solid #ecf0f1;
+  border-bottom: 1px solid #ecf0f1;
 }
 
-.separator{
+.separator {
   display: inline-block;
   height: 48px;
-  border-bottom:1px solid gray;
-
+  border-bottom: 1px solid gray;
 }
-.up{
-width: 50%;
+.up {
+  width: 50%;
 
-float:right;
+  float: right;
 }
-.up i{
+.up i {
   margin-right: 10px;
   font-size: medium;
-  color:gray;
-  
+  color: gray;
 }
-.counter{
+.counter {
   width: 30%;
-  float:left;
+  float: left;
 }
 
-.under{
+.under {
   margin-top: 15px;
   display: inline-block;
- width: 80%;
-
+  width: 80%;
 }
-.image img{
+.image img {
   width: 50px;
-  height:50px;
+  height: 50px;
   border-radius: 50%;
-  
 }
-.image{
+.image {
   width: 50%;
-  float:left;
+  float: left;
 }
-.under button{
-  color:white;
-  background-color:red;
-  border-radius:2px;
+.under button {
+  color: white;
+  background-color: red;
+  border-radius: 2px;
   height: 51px;
   width: 184px;
   font-size: medium;
-  float:right;
+  float: right;
 }
-.video-desc{
+.video-desc {
   width: 80%;
-  margin-top:15px;
-  border-bottom:1px solid #ecf0f1;
+  margin-top: 15px;
+  border-bottom: 1px solid #ecf0f1;
 }
-.video-desc p{
-  color:black;
+.video-desc p {
+  color: black;
   font-size: small;
   text-align: justify;
 }
 
-.insert{
+.insert {
   display: flex;
   margin-bottom: 50px;
   width: 80%;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
-.insert input{
+.insert input {
   margin-left: 40px;
   border: none;
-  color:gray;
-  border-bottom:1px solid gray;
+  color: gray;
+  border-bottom: 1px solid gray;
   width: 50%;
   font-size: medium;
-  
 }
-.comments{
+.comments {
   width: 80%;
 }
 
-.comments img{
+.comments img {
   height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    float:left;
+  width: 40px;
+  border-radius: 50%;
+  float: left;
 }
-.comments p{
-  float:left;
-  margin-left:10px;
+.comments p {
+  float: left;
+  margin-left: 10px;
   font-size: small;
 }
 
-.par-bel{
+.par-bel {
   line-height: 1px;
   margin-left: 55px;
   font-size: 15px;
   clear: both;
 }
 
-.last-icons{
+.last-icons {
   margin-left: 60px;
   display: inline-block;
   font-size: 15px;
-  
 }
-.last-icons i{
+.last-icons i {
   margin-right: 20px;
 }
-.reply{
+.reply {
   margin-left: 60px;
   font-size: small;
-  
 }
 
-.divider{
-  border-bottom:1px solid #ecf0f1;
-  border-top:1px solid #ecf0f1;
+.divider {
+  border-bottom: 1px solid #ecf0f1;
+  border-top: 1px solid #ecf0f1;
   padding-top: 15px;
   padding-bottom: 5px;
   margin-bottom: 15px;
-  display:inline-block;
-  width:100%;
+  display: inline-block;
+  width: 100%;
 }
-.divider p{
-  float:left;
+.divider p {
+  float: left;
 }
 
-
-
-
-.toggle{
-  
+.toggle {
   display: inline-block;
 }
-.toggle-bt h2{
-font-size: medium;
-color:lightgray;
-float: right;
+.toggle-bt h2 {
+  font-size: medium;
+  color: lightgray;
+  float: right;
 }
-.toggle-bt{
-float:left;
-margin-left:180px;
+.toggle-bt {
+  float: left;
+  margin-left: 180px;
 }
 
-
-.upnext-title{
-  float:left;
+.upnext-title {
+  float: left;
 }
 
 /* Toggle Button */
 
-input[type=checkbox]{
-  height:0;
-  width:0;
-  visibility:hidden;
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
 }
-label{
-  text-indent:-9999px;
-  width:36px;
-  height:14px;
-  background:grey;
-  display:block;
-  border-radius:100px;
-  position:relative;
+label {
+  text-indent: -9999px;
+  width: 36px;
+  height: 14px;
+  background: grey;
+  display: block;
+  border-radius: 100px;
+  position: relative;
 }
 label:after {
-  content:'';
+  content: "";
   position: absolute;
-  top:0;
-  left:1px;
-  height:14px;
-  width:14px;
-  background:#fff;
-  border-radius:50px;
+  top: 0;
+  left: 1px;
+  height: 14px;
+  width: 14px;
+  background: #fff;
+  border-radius: 50px;
 }
 
-input:checked+label{
-  background:blue;
- 
+input:checked + label {
+  background: blue;
 }
 
-input:checked+label:after{
+input:checked + label:after {
   left: calc(100% - 1px);
-  transform:translateX(-100%);
- 
+  transform: translateX(-100%);
 }
 
-.videobox{
-  margin-top:20px;
+.videobox {
+  margin-top: 20px;
 }
-.videothumbs img{
+.videothumbs img {
   width: 150px;
   height: 88px;
-  float:left;
-  
+  float: left;
 }
-.bar{
- height: 9px;
-  clear:both;
-  margin-bottom:100px;
+.bar {
+  height: 9px;
+  clear: both;
+  margin-bottom: 100px;
 }
-.description{
+.description {
   width: 200px;
-  float:left;
+  float: left;
 }
 
-.description ul{
+.description ul {
   list-style-type: none;
-  
 }
-.description li h2{
+.description li h2 {
   font-size: medium;
 }
-.description li p{
-  font-size:small;
+.description li p {
+  font-size: small;
   line-height: 1px;
 }

@@ -20,8 +20,6 @@ nav ul li {
   height: 56px;
 }
 
-
-
 .menu {
   width: 10px;
   margin-left: 50px;
@@ -29,7 +27,7 @@ nav ul li {
 
 .logo {
   width: 80px;
-  
+
   margin-left: 40px;
 }
 
@@ -74,6 +72,7 @@ video  part
   display: inline-block;
   margin-top: 500px;
   height: 100%;
+  clear: both;
 }
 .video {
   width: 62%;
@@ -93,10 +92,12 @@ video  part
 .description1 {
   font-size: 20px;
   display: inline-block;
-  width: 100%;
+  width: 85%;
   border-bottom: 1px solid #ecf0f1;
- line-height: 1;
- vertical-align: top;
+  line-height: 1;
+
+  clear: both;
+  margin-left: 37px;
 }
 
 .separator {
@@ -105,26 +106,25 @@ video  part
   border-bottom: 1px solid gray;
 }
 .up {
-  width: 50%;
-  vertical-align: top;
-  float: right;
-  vertical-align: top;
+  width: 55%;
+  display: inline-block;
+  text-align: right;
 }
 .up i {
   margin-right: 10px;
   font-size: medium;
   color: gray;
- 
 }
 .counter {
-  width: 30%;
-  float: left;
+  width: 40%;
+  display: inline-block;
 }
 
 .under {
   margin-top: 15px;
   display: inline-block;
   width: 80%;
+  margin-left: 37px;
 }
 .image img {
   width: 50px;
@@ -148,6 +148,7 @@ video  part
   width: 80%;
   margin-top: 15px;
   border-bottom: 1px solid #ecf0f1;
+  margin-left: 37px;
 }
 .video-desc p {
   color: black;
@@ -156,10 +157,15 @@ video  part
 }
 
 .insert {
-  display: flex;
+  display: inline-block;
   margin-bottom: 50px;
   width: 80%;
   margin-top: 20px;
+  margin-left: 37px;
+}
+
+.insert img {
+  display: inline-block;
 }
 
 .insert input {
@@ -172,6 +178,7 @@ video  part
 }
 .comments {
   width: 80%;
+  margin-left: 37px;
 }
 
 .comments img {
@@ -181,9 +188,10 @@ video  part
   float: left;
 }
 .comments p {
-  float: left;
+  margin-right: 20px;
   margin-left: 10px;
   font-size: small;
+  display: inline-block;
 }
 
 .par-bel {
@@ -226,6 +234,7 @@ video  part
   font-size: medium;
   color: lightgray;
   float: right;
+  margin-left: 24px;
 }
 .toggle-bt {
   float: left;
@@ -274,6 +283,11 @@ input:checked + label:after {
 
 .videobox {
   margin-top: 20px;
+}
+
+.title {
+  clear: both;
+  margin-left: 37px;
 }
 .videothumbs img {
   width: 150px;

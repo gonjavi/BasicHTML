@@ -8,20 +8,19 @@ nav ul {
   list-style: none;
   display: inline-block;
   vertical-align: top;
+  height: 56px;
+  margin: auto 0;
+  line-height: 56px;
 }
 
 nav ul li {
   list-style: none;
   display: inline-block;
   vertical-align: top;
+  height: 56px;
 }
 
-.navigation {
-  display: flex;
-  vertical-align: top;
-  margin: 0;
-  padding: 0;
-}
+
 
 .menu {
   width: 10px;
@@ -30,7 +29,7 @@ nav ul li {
 
 .logo {
   width: 80px;
-
+  
   margin-left: 40px;
 }
 
@@ -43,9 +42,7 @@ nav ul li {
   width: 600px;
   margin-left: 15%;
 }
-form {
-  width: 80%;
-}
+
 .search-form input {
   width: 100%;
   height: 30px;
@@ -56,7 +53,7 @@ form {
 .button {
   margin-left: 87px;
   width: 50%;
-  height: 36px;
+  height: 29px;
 }
 
 .icons img {
@@ -96,8 +93,10 @@ video  part
 .description1 {
   font-size: 20px;
   display: inline-block;
-  width: 80%;
+  width: 100%;
   border-bottom: 1px solid #ecf0f1;
+ line-height: 1;
+ vertical-align: top;
 }
 
 .separator {
@@ -107,13 +106,15 @@ video  part
 }
 .up {
   width: 50%;
-
+  vertical-align: top;
   float: right;
+  vertical-align: top;
 }
 .up i {
   margin-right: 10px;
   font-size: medium;
   color: gray;
+ 
 }
 .counter {
   width: 30%;

@@ -178,9 +178,21 @@ video  part
   width: 50%;
   font-size: medium;
 }
+.comments-all {
+  width: 80%;
+  margin-left: 37px;
+}
+
 .comments {
   width: 80%;
   margin-left: 37px;
+}
+
+.comments-all img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  float: left;
 }
 
 .comments img {
@@ -190,6 +202,12 @@ video  part
   float: left;
 }
 .comments p {
+  margin-right: 20px;
+  margin-left: 10px;
+  font-size: small;
+  display: inline-block;
+}
+.comments-all p {
   margin-right: 20px;
   margin-left: 10px;
   font-size: small;

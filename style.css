@@ -23,17 +23,19 @@ nav ul li {
 .menu {
   width: 10px;
   margin-left: 50px;
+  
 }
 
 .logo {
   width: 80px;
-
+  vertical-align: middle;
   margin-left: 40px;
 }
 
 .hamburger {
   width: 24px;
   height: 24px;
+  vertical-align: middle;
 }
 
 .search-form {

@@ -1,24 +1,344 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Basic HTML Basic Structure</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Youtube</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
 
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"
+              ><img class="hamburger" src="img/menu.png" alt="menu image"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="logo" src="img/logo.png" alt="Youtube Logo"
+            /></a>
+          </li>
+          <li>
+            <input class="search-form" type="text" placeholder="Search" />
+          </li>
+          <li>
+            <button class="button" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </li>
+          <li class="icons">
+            <a href="#"
+              ><img src="img/1.jpg" alt="antonio"/>
+              <img src="img/2.jpg" alt="icon1"/>
+              <img src="img/3.jpg" alt="icon2"/>
+              <img src="img/4.jpg" alt="icon3"/>
+              <img src="img/5.jpg" alt="icon4"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- video section-->
+      <div id="video-sidebar">
+        <div class="video">
+          <figure>
+            <iframe
+              width="645"
+              height="394"
+              src="https://www.youtube.com/embed/xTlNMmZKwpA"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </figure>
+          <div class="title">
+            <p>
+              <b
+                >Cardi B, Bad Bunny & J Balvin - I Like It [Official Music
+                Video]
+              </b>
+            </p>
+          </div>
+          <div class="description1">
+            <div class="counter">
+              <p>949,772,024 views</p>
+            </div>
+            <div class="up">
+              <i class="fa fa-thumbs-up">3,9 mil</i>
 
-    <div id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZnuwB35GYMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <i class="fa fa-thumbs-down">156</i>
 
-    </div>
+              <i class="fa fa-share">Share</i>
+              <i class="fa fa-save">Save</i>
+              <i class="fa fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="under">
+            <div class="image">
+              <img src="img/cardib.jpeg" alt="cardib" />
+              <b>Cardi B.</b>
+            </div>
+            <button type="submit">Subscribe 192 Mil</button>
+          </div>
+          <div class="video-desc">
+            <p>
+              Top 50 Best Long Shots In Football History ft. Ronaldinho, Roberto
+              Carlos, Wayne Rooney, Zlatan Ibrahimovic, Cristiano Ronaldo etc.
+              If you enjoyed the video, give it a thumbs up and subscribe for
+              new videos!
+            </p>
+            <a href="#">Show More</a>
+          </div>
+          <div class="comments-all">
+            <div class="top">
+              <p><b>258 Comments</b></p>
+              <i class="fa fa-share">SORT BY:</i>
+            </div>
 
-    <div id="sidebar">
+            <div class="insert">
+              <img src="img/5.jpg" alt="image5" />
+              <input type="text" placeholder="Add a public comment" />
+            </div>
 
+            <div class="comment-box">
+              <div class="comments">
+                <img src="img/cardib.jpeg" alt="cardib" />
+                <p><b>DexterMullen</b></p>
+              </div>
+              <div class="par-bel">
+                <p>I like your music Cardi!!!</p>
+              </div>
+              <div class="last-icons">
+                <i class="fa fa-thumbs-up">120</i>
 
-    </div>
+                <i class="fa fa-thumbs-down"></i>
 
-</body>
+                Reply<i class="fa fa-sort-down"></i>
+              </div>
+              <div class="reply">
+                <p><b>View Replies</b><i class="fa fa-sort-down"></i></p>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comments">
+                <img src="img/bruno.jpeg" alt="cardib" />
+                <p><b>brunito</b></p>
+              </div>
+              <div class="par-bel">
+                <p>The best video Cardi B has recorded</p>
+              </div>
+              <div class="last-icons">
+                <i class="fa fa-thumbs-up">120</i>
 
+                <i class="fa fa-thumbs-down"></i>
+
+                Reply<i class="fa fa-sort-down"></i>
+              </div>
+              <div class="reply">
+                <p><b>View Replies</b><i class="fa fa-sort-down"></i></p>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comments">
+                <img src="img/cent2.jpeg" alt="cardib" />
+                <p><b>Centivo</b></p>
+              </div>
+              <div class="par-bel"></div>
+              <div class="last-icons">
+                <i class="fa fa-thumbs-up">120</i>
+
+                <i class="fa fa-thumbs-down"></i>
+
+                Reply<i class="fa fa-sort-down"></i>
+              </div>
+              <div class="reply">
+                <p><b>View Replies</b><i class="fa fa-sort-down"></i></p>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comments">
+                <img src="img/cardib.jpeg" alt="cardib" />
+                <p><b>DexterMullen</b></p>
+              </div>
+              <div class="par-bel">
+                <p>
+                  Happy birthday 🍻🍻🍻 to this song... Drinks on
+                  me🎉🎉🎉😂😂😂😂😂
+                </p>
+              </div>
+              <div class="last-icons">
+                <i class="fa fa-thumbs-up">120</i>
+
+                <i class="fa fa-thumbs-down"></i>
+
+                Reply<i class="fa fa-sort-down"></i>
+              </div>
+              <div class="reply">
+                <p><b>View Replies</b><i class="fa fa-sort-down"></i></p>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comments">
+                <img src="img/cardib.jpeg" alt="cardib" />
+                <p><b>DexterMullen</b></p>
+              </div>
+              <div class="par-bel">
+                <p>
+                  Happy birthday 🍻🍻🍻 to this song... Drinks on
+                  me🎉🎉🎉😂😂😂😂😂
+                </p>
+              </div>
+              <div class="last-icons">
+                <i class="fa fa-thumbs-up">120</i>
+
+                <i class="fa fa-thumbs-down"></i>
+
+                Reply<i class="fa fa-sort-down"></i>
+              </div>
+              <div class="reply">
+                <p><b>View Replies</b><i class="fa fa-sort-down"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="sidebar">
+            <div class="divider">
+              <div class="toggle">
+                <div class="upnext-title">
+                  <p>Up Next</p>
+                </div>
+                <div class="toggle-bt">
+                  <h2>Autoplay</h2>
+                  <input type="checkbox" id="switch" />
+                  <label for="switch">Toggle</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="bar">
+              <div class="videothumbs">
+                <img src="img/cent.jpeg" alt="fifty cent" />
+              </div>
+              <div class="description">
+                <ul>
+                  <li>
+                    <h2><b>In Da Club Fifty Cent</b></h2>
+                  </li>
+                  <li><p>MSVogue 23</p></li>
+                  <li><p>600 M Visualizations</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="videothumbs">
+                <img src="img/bruno.jpeg" alt="fifty cent" />
+              </div>
+              <div class="description">
+                <ul>
+                  <li>
+                    <h2><b>Bruno Mars | Today I dont fell</b></h2>
+                  </li>
+                  <li><p>Bruno MArs Song</p></li>
+                  <li><p>50 M Visualizations</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="videothumbs">
+                <img src="img/cent2.jpeg" alt="fifty cent" />
+              </div>
+              <div class="description">
+                <ul>
+                  <li>
+                    <h2><b>In Da Club Fifty Cent</b></h2>
+                  </li>
+                  <li><p>MSVogue 23</p></li>
+                  <li><p>600 M Visualizations</p></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bar">
+              <div class="videothumbs">
+                <img src="img/bruno.jpeg" alt="fifty cent" />
+              </div>
+              <div class="description">
+                <ul>
+                  <li>
+                    <h2><b>Bruno Mars | Today I dont fell</b></h2>
+                  </li>
+                  <li><p>Bruno MArs Song</p></li>
+                  <li><p>50 M Visualizations</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="videothumbs">
+                <img src="img/bruno2.jpeg" alt="fifty cent" />
+              </div>
+              <div class="description">
+                <ul>
+                  <li>
+                    <h2><b>Bruno Mars | Today I dont fell</b></h2>
+                  </li>
+                  <li><p>Bruno MArs Song</p></li>
+                  <li><p>50 M Visualizations</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="videothumbs">
+                <img src="img/bruno2.jpeg" alt="fifty cent" />
+              </div>
+              <div class="description">
+                <ul>
+                  <li>
+                    <h2><b>Bruno Mars | Today I dont fell</b></h2>
+                  </li>
+                  <li><p>Bruno MArs Song</p></li>
+                  <li><p>50 M Visualizations</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="videothumbs">
+                <img src="img/bruno2.jpeg" alt="fifty cent" />
+              </div>
+              <div class="description">
+                <ul>
+                  <li>
+                    <h2><b>Bruno Mars | Today I dont fell</b></h2>
+                  </li>
+                  <li><p>Bruno MArs Song</p></li>
+                  <li><p>50 M Visualizations</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="videothumbs">
+                <img src="img/bruno2.jpeg" alt="fifty cent" />
+              </div>
+              <div class="description">
+                <ul>
+                  <li>
+                    <h2><b>Bruno Mars | Today I dont fell</b></h2>
+                  </li>
+                  <li><p>Bruno MArs Song</p></li>
+                  <li><p>50 M Visualizations</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    </main>
+  </body>
 </html>

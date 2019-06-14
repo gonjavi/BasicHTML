@@ -9,4 +9,4 @@ This collaborative project is based on the youtube.com video page, as a part of 
 <a href="https://github.com/gonjavi">Gonzalo Javier Mancilla</a>
 
 
-<h1>Link of the live version:</h1>https://raw.githack.com/gonjavi/basichtml/development/index.html
+<h1>Link of the live version:</h1>https://gonjavi.github.io/basichtml/

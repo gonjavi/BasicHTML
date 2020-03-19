@@ -1,11 +1,10 @@
-<h1><b>Project: Basic HTML - Youtube</b></h1>
+## Project: Basic HTML - Youtube 
   
 This collaborative project is based on the youtube.com video page, as a part of the assignment for microverse using concepts of html and css, to create the video page.
 
 
 
 ![screenshot](./img/basic.png)
-
 
 
 ## Built With
@@ -26,7 +25,7 @@ This collaborative project is based on the youtube.com video page, as a part of 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/gonjavi/basichtml/development/index.html)
+[Live Demo Link](https://gonjavi.github.io/BasicHTML/)
 
 
 ## 🤝 Contributing

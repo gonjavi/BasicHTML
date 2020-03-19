@@ -4,7 +4,7 @@ This collaborative project is based on the youtube.com video page, as a part of 
 
 
 
-![screenshot](./img/basic.png)
+![screenshot](./img/basic1.png)
 
 
 ## Built With
